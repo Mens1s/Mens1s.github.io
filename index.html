@@ -1,265 +1,424 @@
-<!DOCTYPE HTML>
-<!--
-	Twenty 1.0 by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Mensis</title>
-		<link rel="icon" href="/images/me.jpg">
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.dropotron.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-	</head>
-	<body class="index loading">
-	
-		<!-- Header -->
-			<header id="header" class="alt">
-				<h1 id="logo"><a href="index.html">Mens1s <span>Ahmet Yigit</span></a></h1>
-				<nav id="nav">
-					<ul>
-						<li class="current"><a href="index.html">Welcome</a></li>
-						<li class="submenu">
-							<a href="">From Me</a>
-							<ul>
-								<li><a href="#">Projects</a></li>
-								<li><a href="#">Social Medias</a></li>
-								<li><a href="#">Code Activity</a></li>
-								<li><a href="#">Contact</a></li>
-								<!-- <li class="submenu">
-									<a href="">Submenu</a>
-									<ul>
-										<li><a href="#">Dolore Sed</a></li>
-										<li><a href="#">Consequat</a></li>
-										<li><a href="#">Lorem Magna</a></li>
-										<li><a href="#">Sed Magna</a></li>
-										<li><a href="#">Ipsum Nisl</a></li>
-									</ul>
-								</li> -->
-							</ul>
-						</li>
-						<li><a href="#" class="button special deactive">Soon Ac</a></li>
-					</ul>
-				</nav>
-			</header>
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
-		<!-- Banner -->		
-			<section id="banner">
-				
-				<!--
-					".inner" is set up as an inline-block so it automatically expands
-					in both directions to fit whatever's inside it. This means it won't
-					automatically wrap lines, so be sure to use line breaks where
-					appropriate (<br />).
-				-->
-				<div class="inner">
-					
-					<header>
-						<h2>Mens1s</h2>
-					</header>
-					<p>This is <strong>Mensis</strong>, junior<br />
-					backend developer<br />
-					as <a href="http://fiverr.com/mensiis">freelancer</a>.</p>
-					<footer>
-						<ul class="buttons vertical">
-							<li><a href="./lookatme.html" class="button fit scrolly">Look at my CV</a></li>
-						</ul>
-					</footer>
-				
-				</div>
-				
-			</section>
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Mens1s</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
+
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="index.html">Mens1s</a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Hello, World.</h5>
+	   			<h1>I'm Ahmet Yigit.</h1>
+
+	   			<p class="intro-position">
+	   				<span>Back-end Developer</span>
+	   				<span>data analyst</span> 
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+         <li><a href="https://www.linkedin.com/in/ahmetyigit1"><i class="fa fa-linkedin"></i></a></li>
+         <li><a href="https://twitter.com/ahm3tyigit"><i class="fa fa-twitter"></i></a></li>
+         <li><a href="https://github.com/mens1s"><i class="fa fa-github"></i></a></li>
+         <li><a href="https://www.instagram.com/ahmet.yiigit/"><i class="fa fa-instagram"></i></a></li>
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
+
+
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About</h5>
+   			<h1>Let me introduce myself.</h1>
+
+   			<div class="intro-info">
+
+   				<img src="images/profile-pic.jpg" alt="Profile Picture">
+
+   				<p class="lead">
+					Hello, I am Ahmet Yigit, and I will be completing my bachelor’s degree in computer engineering from Gebze Technical University in August 2025.
+					I have worked on a wide variety of projects that have allowed me to put what I’ve learned in the classroom into use in a practical sense. 
+					In begining of 2022, I was part of a group where the students made a project of artificial intelligience automation system which is detects human wear mask or not and give him/her to mask. 
+					I pride myself on coding of AI, communication in systems, and modelling. You can visit code and video with click here <a href="https://github.com/Mens1s/GTU-CSE-101-PROJECT"></a>
+					Also I have a lot of self-study project in my github account!
+				</p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>Profile</h3>
+   			<p>I am freelancer developer at Fiverr and Bionluk</p>
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Fullname:</strong>
+   					<span>Ahmet Yigit</span>
+   				</li>
+   				<li>
+   					<strong>Birth Date:</strong>
+   					<span>January 21, 2002</span>
+   				</li>
+   				<li>
+   					<strong>Job:</strong>
+   					<span>Freelancer, Backend Developer, Data Analyst</span>
+   				</li>
+   				<li>
+   					<strong>Website:</strong>
+   					<span>www.mens1s.github.io/</span>
+   				</li>
+   				<li>
+   					<strong>Email:</strong>
+   					<span>ahmet_yigit_02@hotmail.com</span>
+   				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Skills</h3>
+   			<p>I have a chance to develop my skils in many area such as cyber security, django, spring, CV2, AI, pandas, numpy, Java, C, C# and Unity3D.</p>
+
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent95"><span>95%</span></div>
+				   	<strong>Python</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent90"><span>90%</span></div>
+				   	<strong>C</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent80"><span>80%</span></div>
+				   	<strong>Django</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent70"><span>70%</span></div>
+				   	<strong>Java</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent65"><span>65%</span></div>
+				   	<strong>Unity3D</strong>
+				   </li>
+      
+				</ul> <!-- /skill-bars -->		
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+   			<a href="/images/Ahmet-Yigit-Resume.pdf" title="Download CV" class="button button-primary">Download CV</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
+
+
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Resume</h5>
+   			<h1>More of my credentials.</h1>
+
+   			<p class="lead">I have worked only as a freelancer. In 2022 summer I have an internship at Turkcell</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Work Experience</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Freelancer</h3>
+	   					<p>September 2021 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Fiverr and Bionluk</h4>
+	   					<p>I have done many project in many area such as game development, creating web-pages, automation bots.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+   	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Education</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Bachelor Degree</h3>
+	   					<p>July 2020 - June 2025</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Gebze Technical University</h4>
+	   					<p>In my school education life, I have a hard homeworks in C and Java. I have a chance to develop my algorithmic ability, coding ability and many things too.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
 		
-		<!-- Main -->
-			<article id="main">
+	</section> <!-- /features -->
 
-				<header class="special container">
-					<span class="icon fa-bar-chart-o"></span>
-					<h2>I started coding in <strong>high school</strong> I love solving<br />
-					problems and coding You can reach me on social medias</h2>
-					
-				</header>
-					
-				<!-- One -->
-					<section class="wrapper style2 container special-alt">
-						<div class="row half">
-							<div class="8u">
-							
-								<header>
-									<h2>This <strong>icons</strong> are important for us but why?</h2>
-								</header>
-								<p>Time is a key of everything. Computer, storage and security are my life so you can guess it. Planning is the main key too because we can arrange everything but without a plan all of thing can go wrong, maybe they can't go anywhere.<br>Ehh, music is the most important thing (for personal add you can reach my spotify profile in <a href="https://open.spotify.com/user/f4a5dwqco3m15qf8nc9vcwhwv" style="color: #ffffff;">here</a>) Without music please don't do that to yourself, music is the life, my body.</p>
-								<footer>
-									<ul class="buttons">
-										<li><a href="https://github.com/Mens1s" class="button">Look my activity</a></li>
-									</ul>
-								</footer>
-							
-							</div>
-							<div class="4u skel-cell-important">
-							
-								<ul class="feature-icons">
-									<li><span class="icon fa-clock-o"><span class="label">Feature 1</span></span></li>
-									<li><span class="icon fa-volume-up"><span class="label">Feature 2</span></span></li>
-									<li><span class="icon fa-laptop"><span class="label">Feature 3</span></span></li>
-									<li><span class="icon fa-inbox"><span class="label">Feature 4</span></span></li>
-									<li><span class="icon fa-lock"><span class="label">Feature 5</span></span></li>
-									<li><span class="icon fa-cog"><span class="label">Feature 6</span></span></li>
-								</ul>
-							
-							</div>				
-						</div>
-					</section>
-					
-				<!-- Two -->
-					<section class="wrapper style1 container special">
-						<div class="row">
-							<div class="4u">
-							
-								<section>
-									<span class="icon feature fa-check"></span>
-									<header>
-										<h3>I am learning </h3>
-									</header>
-									<p>My whole life started with a competition, I competed with my classmates in primary, middle and high school, and then I continue to compete again in university. Well, after a while, I said how far this competition is and I decided that the real competition is to improve myself and now I am improving myself in the fields of html, css bootstrap, java, c, django, pyhton and data-science.</p>
-								</section>
-							
-							</div>
-							<div class="4u">
-							
-								<section>
-									<span class="icon feature fa-check"></span>
-									<header>
-										<h3>I am helping</h3>
-									</header>
-									<p>I know that I did not bring it here myself, I developed it with all the research and the efforts of dozens of people, and I still improve myself by reading the documents written by dozens of people, and this is how I realized the importance of helping people, I try to help everyone in every way in many environments.</p>
-								</section>
-							
-							</div>
-							<div class="4u">
-							
-								<section>
-									<span class="icon feature fa-check"></span>
-									<header>
-										<h3>Also I am working as a Freelancer</h3>
-									</header>
-									<p>You know fiverr, freelancer, or like this web-sites, I am the developer for you in this web-sites. Up to know, I finished 19 projects and all my customers were satisfied with my work.</p>
-								</section>
-							
-							</div>
-						</div>
-					</section>
-					
-				<!-- Three -->
-					<section class="wrapper style3 container special">
-					
-						<header class="major">
-							<h2>I did a lot of <strong>cool works</strong></h2>
-						</header>
-						
-						<div class="row">
-							<div class="6u">
-							
-								<section>
-									<a href="#" class="image feature"><img src="images/pic01.jpg" alt="" /></a>
-									<header>
-										<h3>Codewars/Hackerrank Solutions</h3>
-									</header>
-									<p>This week 18 problems have solved.</p>
-								</section>
 
-							</div>
-							<div class="6u">
-							
-								<section>
-									<a href="#" class="image feature"><img src="images/pic02.jpg" alt="" /></a>
-									<header>
-										<h3>Github Activity</h3>
-									</header>
-									<p>I created 6 repositories, they include python, django, javascript, java, c language, html, css, bootstrap.</p>
-								</section>
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
 
-							</div>
-						</div>
-						<div class="row">
-							<div class="6u">
-							
-								<section>
-									<a href="#" class="image feature"><img src="images/pic03.jpg" alt="" /></a>
-									<header>
-										<h3>Real Life Activty</h3>
-									</header>
-									<p>I joined working team of DeepCon activity. What is DeepCon? DeepCon is a meeting by İEEE GTU to everybody. We arranged guests who are expert in the artificial intelligence and data-science. I had a chance to meet this special people and ask my questions.
-									</p>
-								</section>
+		<div class="row section-intro">
+   		<div class="col-twelve">
 
-							</div>
-							<div class="6u">
-							
-								<section>
-									<a href="#" class="image feature"><img src="images/pic04.jpg" alt="" /></a>
-									<header>
-										<h3>Freelancer Activity</h3>
-									</header>
-									<p>I did a lot of projects which are creating/doing game, web-page, data-mining, and databases.</p>
-								</section>
+   			<h5>Portfolio</h5>
+   			<h1>Check Out Some of My Certificates.</h1>
 
-							</div>
-						</div>
+   			<p class="lead"></p>
+			   <ul class="skill-bars">
+				<li>
+					<a href="/cert/py.pdf" target="_blank"><strong>Python</strong></a>
+				</li>
+				<li>
+					<a href="https://app.patika.dev/certificates/udFTiSG" target="_blank"><strong>Django</strong></a>
+				</li>
+				<li>
+					<a href="https://app.patika.dev/certificates/udFn4Pb" target="_blank"><strong>Spring</strong></a>
+				</li>
+				<li>
+					<a href="https://www.udemy.com/certificate/UC-c70db8ee-ed95-4b3c-9684-6bf215fcc65c/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email" target="_blank"><strong>Ethical Hacker</strong></a>
+				</li>
+				<li>
+					<a href="https://www.udemy.com/certificate/UC-bc3d3b46-c5d7-408e-9b12-8c52ea0f51c6/" target="_blank"><strong>Unity Game Development</strong></a>
+				</li>
+				<li>
+					<a href="/cert/git.pdf" target="_blank"><strong>Git-GitHub</strong></a>
+				</li>
+   
+			 </ul>
+   		</div>   		
+   	</div> <!-- /section-intro--> 
 
-						<footer class="major">
-							<ul class="buttons">
-								<li><a href="#" class="button">See More</a></li>
-							</ul>
-						</footer>
-					
-					</section>
-					
-			</article>
+		
+	</section> <!-- /portfolio --> 
 
-		<!-- CTA -->
-			<section id="cta">
-			
-				<header>
-					<h2>Do you want <strong>reach</strong> me?</h2>
-					<p>Click this links and send me a message!</p>
-				</header>
-				<footer>
-					<ul class="buttons">
-						<li><a href="https://www.linkedin.com/in/ahmetyigit1/" class="button special">Linkedin</a></li>
-						<li><a href="https://www.instagram.com/ahmet.yiigit" class="button">Instagram</a></li>
-					</ul>
-				</footer>
-			
-			</section>
 
-		<!-- Footer -->
-			<footer id="footer">
-			
-				<ul class="icons">
-					<li><a href="https://twitter.com/Ahm3tyigit" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="https://www.instagram.com/ahmet.yiigit" class="icon circle fa-instagram"><span class="label">Facebook</span></a></li>
-					<li><a href="https://www.linkedin.com/in/ahmetyigit1/" class="icon circle fa-linkedin"><span class="label">Linkedin</span></a></li>
-					<li><a href="github.com/mens1s" class="icon circle fa-github"><span class="label">Github</span></a></li>
-					<li><a href="https://www.linkedin.com/in/ahmetyigit1/" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>
-				</ul>
-				
-				<span class="copyright">&copy;All rights reserved. Thanks for Design: <a href="http://html5up.net">HTML5 UP</a>.</span> 
-			
-			</footer>
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
 
-	</body>
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>I'd Love To Hear From You.</h1>
+
+   			<p class="lead">You can contact me at any time.</p>
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-form">
+
+   		
+   	</div> <!-- /contact-form -->
+
+   	<div class="row contact-info">
+
+   		<div class="col-six tab-full">
+
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
+
+   			<h5>Where to find me</h5>
+
+   			<p>
+            Gebze Technical University<br>
+            Gebze, Kocaeli<br>
+            TR
+            </p>
+
+   		</div>
+
+   		<div class="col-six tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me At</h5>
+
+   			<p>ahmet_yigit_02@hotmail.com<br>
+			   	a.yigit2020@gtu.edu.tr			     
+			   </p>
+
+   		</div>
+
+   		
+   		
+   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	
+
+      	<div class="col-six tab-full">
+	      	<div class="copyright">
+		        	<span>© Copyright Kards 2016.</span> 
+		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
+		         </div>		                  
+	      	</div>
+
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+      	</div> <!-- /row -->     	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
 </html>
